@@ -17,7 +17,7 @@ library(ggplot2)
 library("ggrepel")
 library(readr)
 library(stringr)
-dat <- read_csv("dataSets/EconomistData.csv")
+dat <- read_csv("CountriesData.csv")
 ```
 
 
