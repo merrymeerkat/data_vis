@@ -1,0 +1,31 @@
+---
+title: "Covid 19 Brasil"
+author: "Daniela"
+date: "24 de maio 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+covid <- read.csv("mai24.csv", stringsAsFactors = FALSE, header = TRUE, sep = ";")
+
+colnames(covid)[1] <- "data"
+
+covid$date <- as.Date(covid$data, "%d/%m")
+
+covid
+
+graf_simples <- ggplot(data = covid, aes(date, casosAcumulado)) + 
+  geom_point(shape = 'o', size = 3, color = "red") + 
+  theme_classic() + 
+  labs(title = "Casos acumulados de covid-19", x = "Data", y = "Total de óbitos") 
+
+
+graf_simples
+```
+
