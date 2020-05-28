@@ -1,0 +1,127 @@
+\hbox{\beginpicture
+\setcoordinatesystem units <1pt,1pt>
+\setplotarea x from 0 to 505.89, y from 0 to 505.89
+\setlinear
+\font\picfont cmss10\picfont
+\font\picfont cmss10 at 10pt\picfont
+\font\picfont cmss10 at 10pt\picfont
+\font\picfont cmss10 at 9pt\picfont
+\font\picfont cmss10 at 11pt\picfont
+\font\picfont cmss10 at 13pt\picfont
+\font\picfont cmss10 at 11pt\picfont
+\font\picfont cmss10 at 9pt\picfont
+\font\picfont cmss10 at 13pt\picfont
+\font\picfont cmss10 at 11pt\picfont
+\font\picfont cmss10 at 9pt\picfont
+\font\picfont cmss10 at 13pt\picfont
+\font\picfont cmss10 at 9pt\picfont
+\font\picfont cmss10 at 11pt\picfont
+\setsolid
+\plot 0.00 0.00 0.00 505.89 /
+\plot 0.00 505.89 505.89 505.89 /
+\plot 505.89 505.89 505.89 0.00 /
+\plot 505.89 0.00 0.00 0.00 /
+\setsolid
+\plot 43.08 34.58 43.08 480.63 /
+\plot 500.39 480.63 500.39 480.63 /
+\plot 500.39 480.63 500.39 34.58 /
+\plot 500.39 34.58 43.08 34.58 /
+\setsolid
+\plot 43.08 131.13 500.39 131.13 /
+\setsolid
+\plot 43.08 283.66 500.39 283.66 /
+\setsolid
+\plot 43.08 436.20 500.39 436.20 /
+\setsolid
+\plot 43.08 54.86 500.39 54.86 /
+\setsolid
+\plot 43.08 207.39 500.39 207.39 /
+\setsolid
+\plot 43.08 359.93 500.39 359.93 /
+\setsolid
+\plot 81.19 34.58 81.19 480.63 /
+\setsolid
+\plot 144.70 34.58 144.70 480.63 /
+\setsolid
+\plot 208.22 34.58 208.22 480.63 /
+\setsolid
+\plot 271.74 34.58 271.74 480.63 /
+\setsolid
+\plot 335.25 34.58 335.25 480.63 /
+\setsolid
+\plot 398.77 34.58 398.77 480.63 /
+\setsolid
+\plot 462.28 34.58 462.28 480.63 /
+\setsolid
+\plot 52.61 54.86 52.61 312.09 /
+\plot 52.61 312.09 109.77 312.09 /
+\plot 109.77 312.09 109.77 54.86 /
+\plot 109.77 54.86 52.61 54.86 /
+\setsolid
+\plot 116.12 54.86 116.12 354.99 /
+\plot 116.12 354.99 173.29 354.99 /
+\plot 173.29 354.99 173.29 54.86 /
+\plot 173.29 54.86 116.12 54.86 /
+\setsolid
+\plot 179.64 54.86 179.64 392.59 /
+\plot 179.64 392.59 236.80 392.59 /
+\plot 236.80 392.59 236.80 54.86 /
+\plot 236.80 54.86 179.64 54.86 /
+\setsolid
+\plot 243.15 54.86 243.15 398.75 /
+\plot 243.15 398.75 300.32 398.75 /
+\plot 300.32 398.75 300.32 54.86 /
+\plot 300.32 54.86 243.15 54.86 /
+\setsolid
+\plot 306.67 54.86 306.67 401.63 /
+\plot 306.67 401.63 363.83 401.63 /
+\plot 363.83 401.63 363.83 54.86 /
+\plot 363.83 54.86 306.67 54.86 /
+\setsolid
+\plot 370.18 54.86 370.18 448.46 /
+\plot 370.18 448.46 427.35 448.46 /
+\plot 427.35 448.46 427.35 54.86 /
+\plot 427.35 54.86 370.18 54.86 /
+\setsolid
+\plot 433.70 54.86 433.70 460.36 /
+\plot 433.70 460.36 490.86 460.36 /
+\plot 490.86 460.36 490.86 54.86 /
+\plot 490.86 54.86 433.70 54.86 /
+\font\picfont cmss10 at 9pt\picfont
+\put {0}  [lB] <0.00pt,0.00pt> at 33.63 50.11
+\put {2000}  [lB] <0.00pt,0.00pt> at 20.13 202.64
+\put {4000}  [lB] <0.00pt,0.00pt> at 20.13 355.18
+\setsolid
+\plot 40.33 54.86 43.08 54.86 /
+\setsolid
+\plot 40.33 207.39 43.08 207.39 /
+\setsolid
+\plot 40.33 359.93 43.08 359.93 /
+\setsolid
+\plot 81.19 31.83 81.19 34.58 /
+\setsolid
+\plot 144.70 31.83 144.70 34.58 /
+\setsolid
+\plot 208.22 31.83 208.22 34.58 /
+\setsolid
+\plot 271.74 31.83 271.74 34.58 /
+\setsolid
+\plot 335.25 31.83 335.25 34.58 /
+\setsolid
+\plot 398.77 31.83 398.77 34.58 /
+\setsolid
+\plot 462.28 31.83 462.28 34.58 /
+\put {domingo}  [lB] <0.00pt,0.00pt> at 65.14 20.13
+\put {quarta}  [lB] <0.00pt,0.00pt> at 132.57 20.13
+\put {quinta}  [lB] <0.00pt,0.00pt> at 196.38 20.13
+\put {sabado}  [lB] <0.00pt,0.00pt> at 258.78 20.13
+\put {segunda}  [lB] <0.00pt,0.00pt> at 320.14 20.13
+\put {sexta}  [lB] <0.00pt,0.00pt> at 389.18 20.13
+\put {terca}  [lB] <0.00pt,0.00pt> at 452.96 20.13
+\font\picfont cmss10 at 11pt\picfont
+\put {dia da semana}  [lB] <0.00pt,0.00pt> at 239.77 5.50
+\put {\rotatebox{90}{número de novos casos} } [rB] <0.00pt,0.00pt> at 17.38 209.06
+\font\picfont cmss10 at 13pt\picfont
+\put {Média de novos casos de covid-19 por dia da semana}  [lB] <0.00pt,0.00pt> at 43.08 486.13
+\endpicture
+}
