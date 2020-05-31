@@ -3,3 +3,5 @@ In Brazil, covid 19 figures have so far been dated not based on when a new case 
 Here, I take a look at the mean number of new cases and the mean number of new deaths, as per government data, by weekday. Sundays show an overwhelmingly lower number of cases, which could be a result of a slower pace of work and subsequently slower updating of figures in this day of the week.
 
 ![](images/cases_by_weekday)
+
+![Mean Number of Cases and Deaths by Weekday (as of 29th May)](images/5.29_cases&deaths_weekday)
