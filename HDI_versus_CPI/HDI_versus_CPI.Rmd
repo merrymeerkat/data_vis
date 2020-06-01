@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
+Here we will reproduce, with small modifications, a graph first published by The Economist in 2011. This graph shows the correlation between the corruption perception index and the human development index of 173 countries. The raw data comes from Transparency International and the UN.
 
 Set up
 ```{r}
@@ -21,17 +21,21 @@ dat <- read_csv("dataSets/EconomistData.csv")
 ```
 
 
+Selecting the countries to be used as labels (same as the one shown in the graph by The Economist)
 ```{r}
 countries_shown = c("Afghanistan", "Congo", "Sudan", "Myanmar", "Iraq", "India", "Venezuela", "Russia", "Argentina", "Greece", "Brazil", "Greece", "Italy", "Spain", "France", "US", "Germany", "Norway", "New Zealand", "Singapore", "Japan", "Britain", "Barbados", "Botswana", "Cape Verde", "Buthan", "Rwanda", "South Africa", "China")
+```
 
-
-dat$pred.HDI <- predict(lm(HDI ~ CPI, data = dat))
-
+    
+Title and axes labels
+```{r}
+our_title <- expression(bold("Corruption and human development\n"))
 our_y_lab <- expression(italic("Human Development Index, 2011 (1 = best)"))
 our_x_lab <- expression(italic("Corruption Perception Index, 2011 (10 = best)"))
-our_title <- expression(bold("Corruption and human development\n"))
-                      
+```
 
+Now, our plot!
+```{r}
 ggplot(data = dat, aes(x = CPI, y = HDI)) + 
     geom_point(shape = 'o', size = 5, aes(color = Region)) + 
 theme_classic() +
